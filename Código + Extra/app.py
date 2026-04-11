@@ -42,8 +42,9 @@ class ECG_CNN(nn.Module):
 
 @st.cache_resource
 def load_model():
+    model_path = Path(__file__).parent / "ecg_cnn_best.pt"
     m = ECG_CNN(n_classes=4)
-    m.load_state_dict(torch.load("ecg_cnn_best.pt", map_location="cpu"))
+    m.load_state_dict(torch.load(str(model_path), map_location="cpu"))
     m.eval()
     return m
 
