@@ -1,0 +1,7 @@
+streamlit
+wfdb
+plotly
+numpy
+pandas
+neurokit2
+torch
