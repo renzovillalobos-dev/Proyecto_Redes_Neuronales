@@ -1,7 +1,8 @@
-streamlit
-wfdb
-plotly
-numpy
-pandas
-neurokit2
-torch
+streamlit==1.32.0
+wfdb==4.1.0
+plotly==5.18.0
+numpy==1.26.4
+pandas==2.2.1
+neurokit2==0.2.7
+torch==2.2.2
+scikit-learn==1.4.2
